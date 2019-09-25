@@ -9,3 +9,4 @@ This will create a folder in the current directory named "1" and a ruby script i
 To-do:  
 -easy undo if it runs incorrectly  
 -scrape the problem description and include it as a comment  
+-option to generate the filetree for any set of problems rather than one at a time
