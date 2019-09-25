@@ -1,4 +1,4 @@
-# ProjectEuler-Ruby-Template
+# Ruby template for ProjectEuler solution files
 Short bash script to generate some boilerplate to solve Project Euler problems with Ruby
 
 Usage example: 
