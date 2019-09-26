@@ -11,15 +11,16 @@ Proceeding to creation of \"$1/$2.rb\"..."
   else
     mkdir $1
   fi
+
   echo "require 'pry'
 require 'benchmark'
   
 
 ### Problem details:" >> $1/$2.rb
 
-ruby scraper.rb $1 >> $1/$2.rb
+  ruby scraper.rb $1 >> $1/$2.rb
 
-echo "
+  echo "
 def final_answer
 
     puts \"#{__method__}: \"
@@ -31,4 +32,6 @@ time = Benchmark.measure {final_answer}
 puts \"Total CPU time elapsed: #{(time.total * 1000).round(4)} milliseconds.\"
 puts \"Real time elapsed: #{(time.real * 1000).round(4)} milliseconds.\"
 " >> $1/$2.rb
+
+  echo "Successfully created file \"$1/$2.rb\""
 fi
