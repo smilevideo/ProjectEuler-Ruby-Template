@@ -8,5 +8,5 @@ This will create a folder in the current directory named "1" and a ruby script i
 
 
 To-do:  
--easy undo if it runs incorrectly  
 -option to generate the filetree for any set of problems rather than one at a time
+-easy undo for the above (currently can just delete folder created)
