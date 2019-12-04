@@ -1,5 +1,6 @@
 # Template for ProjectEuler Ruby solutions
-A short bash script to generate some boilerplate to solve Project Euler problems with Ruby
+A short bash script to generate some boilerplate to solve Project Euler problems with Ruby 
+
 Includes the pry and benchmark gems, a benchmark for the last method, as well as the description of the problem scraped from its webpage in a comment
   
 Usage example: 
