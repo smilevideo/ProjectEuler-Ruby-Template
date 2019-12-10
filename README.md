@@ -2,6 +2,8 @@
 A short bash script to generate some boilerplate to solve Project Euler problems with Ruby 
 
 Includes the pry and benchmark gems, a benchmark for the last method, as well as the description of the problem scraped from its webpage in a comment
+
+See the blog post I wrote about this: https://medium.com/@andrewk1216/boilerplate-with-bash-deda9f0e0a68
   
 Usage example: 
 `$ ./template.sh 1 solution`  
